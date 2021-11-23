@@ -1,7 +1,7 @@
-import { LightningElement } from "lwc";
+import { LightningElement, api } from "lwc";
 
 export default class App extends LightningElement {
-  title = "Welcome to Lightning Web Components!";
+  @api title = "Welcome to Lightning Web Components!";
 
   showFeatures = true;
 
